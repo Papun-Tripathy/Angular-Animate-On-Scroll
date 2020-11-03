@@ -3,13 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+// Thired Party Modules
+// import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
-  ],
+    BrowserModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
